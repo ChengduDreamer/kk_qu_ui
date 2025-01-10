@@ -10,6 +10,8 @@ int main(int argc, char** argv) {
 	w->resize(800, 600);
 	w->show();
 
+	auto btn = new YKButton(w);
+
 	app.exec();
 	return 0;
 }
